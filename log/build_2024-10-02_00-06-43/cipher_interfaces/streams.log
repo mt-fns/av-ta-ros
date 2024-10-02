@@ -1,0 +1,5 @@
+[0.009s] Invoking command in '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_interfaces -- -j4 -l4
+[0.075s] [0mCMake Error: The source directory "/home/michaeltanto/Documents/Programming/AVTA_WS/src/cipher/src/cipher_interfaces" does not exist.
+[0.076s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.078s] gmake: *** [Makefile:963: cmake_check_build_system] Error 1
+[0.080s] Invoked command in '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_interfaces -- -j4 -l4

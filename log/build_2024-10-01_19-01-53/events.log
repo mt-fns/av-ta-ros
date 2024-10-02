@@ -1,0 +1,121 @@
+[0.000000] (-) TimerEvent: {}
+[0.000464] (-) JobUnselected: {'identifier': 'cipher_interfaces'}
+[0.000503] (cipher_node) JobQueued: {'identifier': 'cipher_node', 'dependencies': OrderedDict()}
+[0.000616] (cipher_node) JobStarted: {'identifier': 'cipher_node'}
+[0.005469] (cipher_node) JobProgress: {'identifier': 'cipher_node', 'progress': 'cmake'}
+[0.006925] (cipher_node) Command: {'cmd': ['/usr/bin/cmake', '/home/michaeltanto/Documents/Programming/AVTA_WS/src/cipher_node', '-DCMAKE_INSTALL_PREFIX=/home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node'], 'cwd': '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'michaeltanto'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/michaeltanto'), ('OLDPWD', '/home/michaeltanto/Documents/Programming'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1371'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/michaeltanto/Documents/Programming/AVTA_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'michaeltanto'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'michaeltanto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/michaeltanto-QEMU-Virtual-Machine:@/tmp/.ICE-unix/1212,unix/michaeltanto-QEMU-Virtual-Machine:/tmp/.ICE-unix/1212'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/38af1741_036d_4653_8dac_53349ef63665'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D9TZU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.021269] (cipher_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099961] (-) TimerEvent: {}
+[0.108572] (cipher_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.142835] (cipher_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.144507] (cipher_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.148403] (cipher_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.154521] (cipher_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.162820] (cipher_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.183828] (cipher_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.184719] (cipher_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.202691] (-) TimerEvent: {}
+[0.260658] (cipher_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.303410] (-) TimerEvent: {}
+[0.344193] (cipher_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.353427] (cipher_node) StdoutLine: {'line': b'-- Generating done\n'}
+[0.354519] (cipher_node) StdoutLine: {'line': b'-- Build files have been written to: /home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node\n'}
+[0.360013] (cipher_node) CommandEnded: {'returncode': 0}
+[0.360494] (cipher_node) JobProgress: {'identifier': 'cipher_node', 'progress': 'build'}
+[0.360524] (cipher_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node', '--', '-j4', '-l4'], 'cwd': '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'michaeltanto'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/michaeltanto'), ('OLDPWD', '/home/michaeltanto/Documents/Programming'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1371'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/michaeltanto/Documents/Programming/AVTA_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'michaeltanto'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'michaeltanto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/michaeltanto-QEMU-Virtual-Machine:@/tmp/.ICE-unix/1212,unix/michaeltanto-QEMU-Virtual-Machine:/tmp/.ICE-unix/1212'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/38af1741_036d_4653_8dac_53349ef63665'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D9TZU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_interfaces:/opt/ros/humble')]), 'shell': False}
+[0.389958] (cipher_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.390117] (cipher_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.403630] (-) TimerEvent: {}
+[0.506632] (-) TimerEvent: {}
+[0.606908] (-) TimerEvent: {}
+[0.707181] (-) TimerEvent: {}
+[0.811283] (-) TimerEvent: {}
+[0.911614] (-) TimerEvent: {}
+[1.013006] (-) TimerEvent: {}
+[1.115976] (-) TimerEvent: {}
+[1.217363] (-) TimerEvent: {}
+[1.322293] (-) TimerEvent: {}
+[1.422610] (-) TimerEvent: {}
+[1.525432] (-) TimerEvent: {}
+[1.626999] (-) TimerEvent: {}
+[1.730965] (-) TimerEvent: {}
+[1.835139] (-) TimerEvent: {}
+[1.935455] (-) TimerEvent: {}
+[2.038330] (-) TimerEvent: {}
+[2.140632] (-) TimerEvent: {}
+[2.242991] (-) TimerEvent: {}
+[2.344640] (-) TimerEvent: {}
+[2.446254] (-) TimerEvent: {}
+[2.551313] (-) TimerEvent: {}
+[2.654050] (-) TimerEvent: {}
+[2.754838] (-) TimerEvent: {}
+[2.859391] (-) TimerEvent: {}
+[2.961196] (-) TimerEvent: {}
+[3.062884] (-) TimerEvent: {}
+[3.165533] (-) TimerEvent: {}
+[3.269147] (-) TimerEvent: {}
+[3.372523] (-) TimerEvent: {}
+[3.476588] (-) TimerEvent: {}
+[3.578944] (-) TimerEvent: {}
+[3.679429] (-) TimerEvent: {}
+[3.781357] (-) TimerEvent: {}
+[3.886066] (-) TimerEvent: {}
+[3.983300] (cipher_node) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[3.986150] (-) TimerEvent: {}
+[4.090707] (-) TimerEvent: {}
+[4.172246] (cipher_node) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[4.190821] (-) TimerEvent: {}
+[4.292115] (-) TimerEvent: {}
+[4.396602] (-) TimerEvent: {}
+[4.497957] (-) TimerEvent: {}
+[4.600021] (-) TimerEvent: {}
+[4.702896] (-) TimerEvent: {}
+[4.805102] (-) TimerEvent: {}
+[4.909560] (-) TimerEvent: {}
+[5.010401] (-) TimerEvent: {}
+[5.110658] (-) TimerEvent: {}
+[5.211826] (-) TimerEvent: {}
+[5.312506] (-) TimerEvent: {}
+[5.414124] (-) TimerEvent: {}
+[5.518932] (-) TimerEvent: {}
+[5.621052] (-) TimerEvent: {}
+[5.723145] (-) TimerEvent: {}
+[5.825094] (-) TimerEvent: {}
+[5.928210] (-) TimerEvent: {}
+[6.030345] (-) TimerEvent: {}
+[6.132750] (-) TimerEvent: {}
+[6.254290] (-) TimerEvent: {}
+[6.359175] (-) TimerEvent: {}
+[6.460919] (-) TimerEvent: {}
+[6.563020] (-) TimerEvent: {}
+[6.588889] (cipher_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[6.663185] (-) TimerEvent: {}
+[6.767737] (-) TimerEvent: {}
+[6.860459] (cipher_node) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[6.868044] (-) TimerEvent: {}
+[6.871024] (cipher_node) CommandEnded: {'returncode': 0}
+[6.889539] (cipher_node) JobProgress: {'identifier': 'cipher_node', 'progress': 'install'}
+[6.895516] (cipher_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node'], 'cwd': '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'michaeltanto'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/michaeltanto'), ('OLDPWD', '/home/michaeltanto/Documents/Programming'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1371'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/michaeltanto/Documents/Programming/AVTA_WS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'michaeltanto'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'michaeltanto'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/michaeltanto-QEMU-Virtual-Machine:@/tmp/.ICE-unix/1212,unix/michaeltanto-QEMU-Virtual-Machine:/tmp/.ICE-unix/1212'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/38af1741_036d_4653_8dac_53349ef63665'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_AU.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.D9TZU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_interfaces:/opt/ros/humble')]), 'shell': False}
+[6.910889] (cipher_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.912087] (cipher_node) StdoutLine: {'line': b'-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/lib/cipher_node/talker\n'}
+[6.920111] (cipher_node) StdoutLine: {'line': b'-- Set runtime path of "/home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/lib/cipher_node/talker" to ""\n'}
+[6.920206] (cipher_node) StdoutLine: {'line': b'-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/lib/cipher_node/listener\n'}
+[6.923172] (cipher_node) StdoutLine: {'line': b'-- Set runtime path of "/home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/lib/cipher_node/listener" to ""\n'}
+[6.924334] (cipher_node) StdoutLine: {'line': b'-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/ament_index/resource_index/package_run_dependencies/cipher_node\n'}
+[6.924523] (cipher_node) StdoutLine: {'line': b'-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/ament_index/resource_index/parent_prefix_path/cipher_node\n'}
+[6.924672] (cipher_node) StdoutLine: {'line': b'-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/environment/ament_prefix_path.sh\n'}
+[6.924804] (cipher_node) StdoutLine: {'line': b'-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/environment/ament_prefix_path.dsv\n'}
+[6.925229] (cipher_node) StdoutLine: {'line': b'-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/environment/path.sh\n'}
+[6.925389] (cipher_node) StdoutLine: {'line': b'-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/environment/path.dsv\n'}
+[6.925687] (cipher_node) StdoutLine: {'line': b'-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/local_setup.bash\n'}
+[6.925891] (cipher_node) StdoutLine: {'line': b'-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/local_setup.sh\n'}
+[6.926073] (cipher_node) StdoutLine: {'line': b'-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/local_setup.zsh\n'}
+[6.928513] (cipher_node) StdoutLine: {'line': b'-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/local_setup.dsv\n'}
+[6.928859] (cipher_node) StdoutLine: {'line': b'-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/package.dsv\n'}
+[6.929142] (cipher_node) StdoutLine: {'line': b'-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/ament_index/resource_index/packages/cipher_node\n'}
+[6.929374] (cipher_node) StdoutLine: {'line': b'-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/cmake/cipher_nodeConfig.cmake\n'}
+[6.929497] (cipher_node) StdoutLine: {'line': b'-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/cmake/cipher_nodeConfig-version.cmake\n'}
+[6.929686] (cipher_node) StdoutLine: {'line': b'-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/package.xml\n'}
+[6.931661] (cipher_node) CommandEnded: {'returncode': 0}
+[6.961679] (cipher_node) JobEnded: {'identifier': 'cipher_node', 'rc': 0}
+[6.962516] (-) EventReactorShutdown: {}

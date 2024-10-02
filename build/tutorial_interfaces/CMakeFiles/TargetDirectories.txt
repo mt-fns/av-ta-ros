@@ -1,0 +1,9 @@
+/home/michaeltanto/Documents/Programming/AVTA_WS/build/tutorial_interfaces/CMakeFiles/uninstall.dir
+/home/michaeltanto/Documents/Programming/AVTA_WS/build/tutorial_interfaces/CMakeFiles/tutorial_interfaces_uninstall.dir
+/home/michaeltanto/Documents/Programming/AVTA_WS/build/tutorial_interfaces/CMakeFiles/test.dir
+/home/michaeltanto/Documents/Programming/AVTA_WS/build/tutorial_interfaces/CMakeFiles/edit_cache.dir
+/home/michaeltanto/Documents/Programming/AVTA_WS/build/tutorial_interfaces/CMakeFiles/rebuild_cache.dir
+/home/michaeltanto/Documents/Programming/AVTA_WS/build/tutorial_interfaces/CMakeFiles/list_install_components.dir
+/home/michaeltanto/Documents/Programming/AVTA_WS/build/tutorial_interfaces/CMakeFiles/install.dir
+/home/michaeltanto/Documents/Programming/AVTA_WS/build/tutorial_interfaces/CMakeFiles/install/local.dir
+/home/michaeltanto/Documents/Programming/AVTA_WS/build/tutorial_interfaces/CMakeFiles/install/strip.dir

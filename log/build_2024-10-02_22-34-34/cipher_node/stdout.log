@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target listener[0m
+[ 50%] Built target talker
+[ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[100%] [32m[1mLinking CXX executable listener[0m
+[100%] Built target listener
+-- Install configuration: ""
+-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/lib/cipher_node/talker
+-- Set runtime path of "/home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/lib/cipher_node/talker" to ""
+-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/lib/cipher_node/listener
+-- Set runtime path of "/home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/lib/cipher_node/listener" to ""
+-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/ament_index/resource_index/package_run_dependencies/cipher_node
+-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/ament_index/resource_index/parent_prefix_path/cipher_node
+-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/environment/ament_prefix_path.sh
+-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/environment/ament_prefix_path.dsv
+-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/environment/path.sh
+-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/environment/path.dsv
+-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/local_setup.bash
+-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/local_setup.sh
+-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/local_setup.zsh
+-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/local_setup.dsv
+-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/package.dsv
+-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/ament_index/resource_index/packages/cipher_node
+-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/cmake/cipher_nodeConfig.cmake
+-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/cmake/cipher_nodeConfig-version.cmake
+-- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/package.xml

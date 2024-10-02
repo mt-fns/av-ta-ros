@@ -1,0 +1,7 @@
+{
+  "package_name": "cipher_interfaces",
+  "non_idl_tuples": [
+    "/home/michaeltanto/Documents/Programming/AVTA_WS/src/cipher_interfaces:msg/CipherMessage.msg",
+    "/home/michaeltanto/Documents/Programming/AVTA_WS/src/cipher_interfaces:srv/CipherAnswer.srv"
+  ]
+}

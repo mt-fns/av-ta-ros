@@ -1,0 +1,32 @@
+[0.012s] Invoking command in '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node -- -j4 -l4
+[0.173s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.277s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.313s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.316s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.322s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.343s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.355s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.387s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.388s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.476s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.531s] [31mCMake Error at CMakeLists.txt:17 (find_package):
+[0.531s]   By not providing "Findcipher_interfaces.cmake" in CMAKE_MODULE_PATH this
+[0.531s]   project has asked CMake to find a package configuration file provided by
+[0.531s]   "cipher_interfaces", but CMake did not find one.
+[0.531s] 
+[0.531s]   Could not find a package configuration file provided by "cipher_interfaces"
+[0.531s]   with any of the following names:
+[0.531s] 
+[0.531s]     cipher_interfacesConfig.cmake
+[0.531s]     cipher_interfaces-config.cmake
+[0.531s] 
+[0.531s]   Add the installation prefix of "cipher_interfaces" to CMAKE_PREFIX_PATH or
+[0.531s]   set "cipher_interfaces_DIR" to a directory containing one of the above
+[0.531s]   files.  If "cipher_interfaces" provides a separate development package or
+[0.531s]   SDK, be sure it has been installed.
+[0.531s] 
+[0.531s] [0m
+[0.531s] -- Configuring incomplete, errors occurred!
+[0.531s] See also "/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node/CMakeFiles/CMakeOutput.log".
+[0.548s] gmake: *** [Makefile:308: cmake_check_build_system] Error 1
+[0.549s] Invoked command in '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node -- -j4 -l4

@@ -1,0 +1,7 @@
+launch:
+
+- node:
+    pkg: "cipher_node"
+    exec: "listener" 
+    name: "topic"
+    namespace: "ciphernode1"

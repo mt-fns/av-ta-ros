@@ -1,0 +1,5 @@
+[0.012s] Invoking command in '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node -- -j4 -l4
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.142s] [ 50%] Built target listener
+[0.145s] [100%] Built target talker
