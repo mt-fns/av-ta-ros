@@ -57,7 +57,7 @@ private:
   string caesar_decipher(string text, int key) const {
     key = key % 26;
     
-    for (int i = 0; i < text.length(); i++) {
+    for (long unsigned int i = 0; i < text.length(); i++) {
       char deciphered = text[i] - key;
       
       // loop back to Z (uppercase)
