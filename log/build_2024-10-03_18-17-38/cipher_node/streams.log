@@ -1,0 +1,32 @@
+[0.021s] Invoking command in '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node -- -j4 -l4
+[0.210s] [35m[1mConsolidate compiler generated dependencies of target listener[0m
+[0.255s] [ 25%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[0.260s] [ 75%] Built target talker
+[2.139s] [01m[K/home/michaeltanto/Documents/Programming/AVTA_WS/src/cipher_node/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kstd::string MinimalSubscriber::caesar_decipher(std::string, int) const[m[K’:
+[2.139s] [01m[K/home/michaeltanto/Documents/Programming/AVTA_WS/src/cipher_node/src/subscriber_member_function.cpp:58:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.139s]    58 |     for (int i = 0; [01;35m[Ki < text.length()[m[K; i++) {
+[2.139s]       |                     [01;35m[K~~^~~~~~~~~~~~~~~[m[K
+[6.300s] [100%] [32m[1mLinking CXX executable listener[0m
+[6.661s] [100%] Built target listener
+[6.673s] Invoked command in '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node -- -j4 -l4
+[6.700s] Invoking command in '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node
+[6.705s] -- Install configuration: ""
+[6.708s] -- Up-to-date: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/lib/cipher_node/talker
+[6.710s] -- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/lib/cipher_node/listener
+[6.711s] -- Set runtime path of "/home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/lib/cipher_node/listener" to ""
+[6.712s] -- Up-to-date: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/ament_index/resource_index/package_run_dependencies/cipher_node
+[6.713s] -- Up-to-date: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/ament_index/resource_index/parent_prefix_path/cipher_node
+[6.713s] -- Up-to-date: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/environment/ament_prefix_path.sh
+[6.713s] -- Up-to-date: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/environment/ament_prefix_path.dsv
+[6.713s] -- Up-to-date: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/environment/path.sh
+[6.713s] -- Up-to-date: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/environment/path.dsv
+[6.713s] -- Up-to-date: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/local_setup.bash
+[6.713s] -- Up-to-date: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/local_setup.sh
+[6.713s] -- Up-to-date: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/local_setup.zsh
+[6.713s] -- Up-to-date: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/local_setup.dsv
+[6.713s] -- Installing: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/package.dsv
+[6.714s] -- Up-to-date: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/ament_index/resource_index/packages/cipher_node
+[6.714s] -- Up-to-date: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/cmake/cipher_nodeConfig.cmake
+[6.714s] -- Up-to-date: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/cmake/cipher_nodeConfig-version.cmake
+[6.715s] -- Up-to-date: /home/michaeltanto/Documents/Programming/AVTA_WS/install/cipher_node/share/cipher_node/package.xml
+[6.717s] Invoked command in '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_node

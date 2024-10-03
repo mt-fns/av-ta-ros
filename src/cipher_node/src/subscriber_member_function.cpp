@@ -14,8 +14,10 @@
 
 
 // run:
+// colcon build
 // . install/setup.bash
 // ros2 run cipher_node listener
+// or use the launch file, ros2 launch cipher_launch.yaml
 
 // resources:
 // https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Publisher-And-Subscriber.html
@@ -83,7 +85,11 @@ private:
     RCLCPP_INFO_STREAM(this->get_logger(), "Cipher received: '" << encoded_msg << "' and key: " << key); 
     // prepare service call
     auto request = std::make_shared<cipher_interfaces::srv::CipherAnswer::Request>();
-    request->answer = caesar_decipher(encoded_msg, key);
+    string decoded_msg = caesar_decipher(encoded_msg, key);
+    request->answer = decoded_msg;
+
+    RCLCPP_INFO_STREAM(this->get_logger(), "Decoded msg: '" << decoded_msg << "'"); 
+
 
     // try to find a service or wait until a service is found
     while (!client_->wait_for_service(1s)) {
@@ -103,6 +109,11 @@ private:
     auto response = future.get();
 
     RCLCPP_INFO(this->get_logger(), "Cipher received: '%d'", response->result); 
+
+    // example of shutting down node inside of callback: https://answers.ros.org/question/329716/close-a-node-from-inside-node-class/
+    // shutdown node after service call
+    rclcpp::shutdown();
+    return;
   }
 };
 
