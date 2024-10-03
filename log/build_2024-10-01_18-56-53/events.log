@@ -1,4 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.001005] (-) JobUnselected: {'identifier': 'cipher_interfaces'}
-[0.001083] (-) JobUnselected: {'identifier': 'cipher_node'}
-[0.001097] (-) EventReactorShutdown: {}

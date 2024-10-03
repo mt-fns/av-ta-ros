@@ -1,9 +1,0 @@
-[ 50%] Built target talker
-[ 75%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
-[01m[K/home/michaeltanto/Documents/Programming/AVTA_WS/src/cipher_node/src/subscriber_member_function.cpp:20:10:[m[K [01;31m[Kfatal error: [m[Kcipher_interfaces/srv/cipher_answer.hpp: No such file or directory
-   20 | #include [01;31m[K"cipher_interfaces/srv/cipher_answer.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/listener.dir/build.make:76: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listener.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

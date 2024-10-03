@@ -1,4 +1,0 @@
-Invoking command in '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_interfaces -- -j4 -l4
-Invoked command in '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_interfaces -- -j4 -l4
-Invoking command in '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_interfaces
-Invoked command in '/home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/michaeltanto/Documents/Programming/AVTA_WS/build/cipher_interfaces
