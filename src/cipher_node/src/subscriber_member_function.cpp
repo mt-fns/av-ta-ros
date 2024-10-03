@@ -88,6 +88,13 @@ private:
     string decoded_msg = caesar_decipher(encoded_msg, key);
     request->answer = decoded_msg;
 
+    // make request header (double check this implementation)
+    // https://answers.ros.org/question/347241/how-to-check-if-a-message-has-a-header-c/
+    // https://answers.ros.org/question/287946/ros-2-time-handling/
+    // https://answers.ros.org/question/356352/query-on-get_clock-now/
+    request->header.stamp = rclcpp::Clock().now();
+    request->header.frame_id = "frame_1";
+
     RCLCPP_INFO_STREAM(this->get_logger(), "Decoded msg: '" << decoded_msg << "'"); 
 
 
